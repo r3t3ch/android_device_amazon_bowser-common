@@ -5,6 +5,9 @@ $(call inherit-product, $(COMMON_FOLDER)/common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(BOWSER_COMMON_FOLDER)/overlay/aosp
 
+# Exclude CM custom off-mode charger
+WITH_CM_CHARGER ?= false
+
 # Hardware HALs
 PRODUCT_PACKAGES += \
     lights.bowser \
