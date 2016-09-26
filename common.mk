@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
 
 # Device settings
 ADDITIONAL_BUILD_PROPERTIES += \
-    persist.demo.hdmirotationlock=true \
+    persist.demo.hdmirotationlock=false \
     persist.lab126.touchnoisereject=1 \
     ro.nf.profile=2 \
     ro.nf.level=512 \
